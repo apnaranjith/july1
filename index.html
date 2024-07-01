@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id2:hover~#id6{
+            display:inline-block;
+  
+        }
+        #id6{
+            display:none;
+        }
+        #id3:hover~#id7{
+            display:inline-block;
+        }
+        #id7{
+            display:none;
+        }
+        #id4:hover~#id8{
+            display:inline-block;
+        }
+        #id8{
+            display:none;
+        }
+        #id5:hover~#id9{
+            display:inline-block;
+        }
+        #id9{
+            display:none;
+        }
+        #t{
+            height:200px;
+            width:600px;
+            border:2px solid black;
+            display:flex;
+            column-gap:3px;
+            justify-content:center;
+            align-items:center
+            
+        }
+        #k1{
+            background-color:black;
+            height:200px;
+            width:200px;
+            display:flex;
+        
+        justify-content:center;
+        align-items:center;
+        }
+        #k2{
+            display:none
+        }
+        #k1:hover>#k2{
+            display:inline-block;
+        }
+        #link1{
+            display:none;
+        }
+       #k1>div:target{
+            display:inline-block;
+        }
+        #k3{
+            background-color:black;
+            height:200px;
+            width:200px;
+            display:flex;
+        
+        justify-content:center;
+        align-items:center;
+        }
+        #k4{
+            display:none
+        }
+        #k3:hover>#k4{
+            display:inline-block;
+        }
+        #link2{
+            display:none;
+        }
+       #k3>div:target{
+            display:inline-block;
+        }
+        #k5{
+            background-color:black;
+            height:200px;
+            width:200px;
+            display:flex;
+        
+        justify-content:center;
+        align-items:center;
+        }
+        #k6{
+            display:none
+        }
+        #k5:hover>#k6{
+            display:inline-block;
+        }
+        #link3{
+            display:none;
+        }
+       #k5>div:target{
+            display:inline-block;
+        }
+        #k7{
+            background-color:black;
+            height:200px;
+            width:200px;
+            display:flex;
+        
+        justify-content:center;
+        align-items:center;
+        }
+        #k8{
+            display:none
+        }
+        #k7:hover>#k8{
+            display:inline-block;
+        }
+        #link4{
+            display:none;
+        }
+       #k7>div:target{
+            display:inline-block;
+        }
+     #ran{
+            display:flex;
+            column-gap:3px;
+            width:600px;
+            flex-wrap:wrap;
+            row-gap:3px;
+
+        }
+        .ran2{
+            height:100px;
+            width:100px;
+            background-color:black;
+            display:flex;
+
+        }
+        #ran .ran2:nth-child(odd){
+            background-color:yellow;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1> page/Task-1</h1>
+  <div id="id1">
+    <button id="id2"> cat</button>
+    <button id="id3">dog</button>
+    <button id="id4">donkey</button>
+    <button id="id5">giraffe</button>
+    <br>
+    <img  id="id6" src="./cat.jpg" height="100" width="100"><br>
+    <img  id="id7" src="./dog.jpg" height="100" width="100"><br>
+    <img    id="id8" src="./donkey.jpg" height="100" width="100"><br>
+    <img   id="id9" src="./giraffe.jpg" height="100" width="100"><br>
+  </div>
+  <h1>page/Task-2</h1>
+  <div id="t">
+    <div id="k1">
+        <a  id="k2" href="#link1">cat</a>
+        <div id="link1">
+        <img  src="./cat.jpg" height="100" width="100">
+        </div>
+    </div>
+    <div id="k3">
+        <a  id="k4" href="#link2">Dog</a>
+        <div id="link2">
+        <img  src="./dog.jpg" height="100" width="100">
+        </div>
+    </div>
+    <div id="k5">
+        <a  id="k6" href="#link3">Donkey</a>
+        <div id="link3">
+        <img  src="./donkey.jpg" height="100" width="100">
+        </div>
+    </div>
+    <div id="k7">
+        <a  id="k8" href="#link4">dog</a>
+        <div id="link4">
+        <img  src="./giraffe.jpg" height="100" width="100">
+        </div>
+    </div>
+    
+    
+  </div><br><br>
+  <h1> page/Task-3</h1>
+  <div id="ran">
+    <div class="ran2">1</div>
+    <div class="ran2">2</div>
+    <div class="ran2">3</div>
+    <div class="ran2">4</div>
+    <div class="ran2">5</div>
+    <div class="ran2">6</div>
+    <div class="ran2">7</div>
+    <div class="ran2">8</div>
+    <div class="ran2">9</div>
+    <div class="ran2">10</div>
+    <div class="ran2">11</div>
+    <div class="ran2">13</div>
+    <div class="ran2">14</div>
+    <div class="ran2">15</div>
+    <div class="ran2">16</div>
+    <div class="ran2">17</div>
+    <div class="ran2">18</div>
+    <div class="ran2">19</div> 
+    <div class="ran2">20</div>
+    <div class="ran2">21</div>
+    <div class="ran2">22</div>
+    <div class="ran2">23</div>
+    <div class="ran2">24</div>
+    <div class="ran2">25</div>
+    <div class="ran2">26</div>
+    <div class="ran2">27</div>
+    <div class="ran2">28</div>
+    <div class="ran2">29</div>
+    <div class="ran2">30</div>
+    <div class="ran2">31</div>
+    <div class="ran2">32</div>
+    <div class="ran2">33</div>
+    <div class="ran2">34</div>
+    <div class="ran2">35</div>
+    <div class="ran2">36</div>
+    <div class="ran2">37</div>
+    <div class="ran2">38</div>
+    <div class="ran2">39</div>
+    <div class="ran2">40</div>
+    <div class="ran2">41</div>
+
+  </div>
+</body>
+</html>
